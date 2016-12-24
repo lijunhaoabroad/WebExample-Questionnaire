@@ -1,0 +1,35 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	background-color: ivory;
+}
+label {
+	vertical-align: top;
+	text-align: left;
+	white-space: nowrap;
+	width:700px;
+	font-weight:bold;
+	float:left;
+}
+fieldset {
+    width:200px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow:5px 5px 5px 5px #ccc;
+	margin-bottom:20px;
+}
+#content {
+	background-size: 180px 750px;
+	width: 775px;
+	background-image: url('a4-1.png');
+	background-repeat: repeat-y;
+	padding-left: 205px;
+	border-radius: 20px;
+	border: 2px solid #7B6B19;
+	box-shadow: 5px 5px 5px 5px #C0C0C0;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+

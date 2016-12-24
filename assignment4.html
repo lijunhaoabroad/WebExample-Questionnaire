@@ -1,0 +1,171 @@
+ <html>
+ <head>
+ <meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+ <title>CentennialCollege Evaluation</title>
+ <link href="assignment4.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+<div id="content">
+<p><a href="http://www.centennialcollege.ca/">
+<img alt="logo"  src="logo.gif" width="700px" height="100px" ></a></p>
+<h3>Centennial College</h3>
+<h4>Continuing Education Course/Instuctor Evaluation</h4>
+<form action="mailto:lijunhaoabroad@gmail.com" method="post" id="frmRegistration" name="frmRegistration">
+<fieldset>
+<legend>Personal Info</legend>
+		    <p>
+			<label for="txtCourse">●Course Name/Code:
+			<input id="txtCourse" name="txtCourse" size="50" tabindex="1" type="text" placeholder="eg. Software Engineering Techinician or 3408" required="required">
+			</label>
+			</p>
+			<p>
+			
+			<label id="selSemester">●Semester</label>
+			<select name="Semester" size="1"  tabindex="3">
+				<option>Summer</option>
+				<option>Fall</option>
+				<option>Winter</option>
+			</select>
+			</p>
+			
+			<p>
+			<label id="txtDate">●Year
+			<input type="date" placeholder="eg. 2014 (yyyy)" tabindex="4" required="required">
+			</label>
+			</p>
+			<p>
+			<label for="txtInstructor">●Instructor:
+			<input id="txtInstructor" name="txtInstructor" size="40" tabindex="5" type="text" placeholder="Jake Smith(First name ,Last name)" required="required">
+			</label>
+			</p>
+</fieldset>
+<fieldset>
+<legend>Instructor</legend>
+<p>
+			<label id="selSubject">1. Knowledge of subject?</label>
+			<select name="selSubject" size="1"  tabindex="6">
+				<option>Excellent</option>
+				<option>Good</option>
+				<option>Fair</option>
+				<option>Not Satisfactory</option>
+			</select>
+			</p>
+			<p>
+			<label id="selHelp">2. helpfulness?</label>
+			<select name="selHelp" size="1"  tabindex="7">
+				<option>Excellent</option>
+				<option>Good</option>
+				<option>Fair</option>
+				<option>Not Satisfactory</option>
+			</select>
+			</p>
+			<p>
+			<label id="selRespect">3. courtesy and respect for all students?</label>
+			<select name="selRespect" size="1"  tabindex="9">
+				<option>Excellent</option>
+				<option>Good</option>
+				<option>Fair</option>
+				<option>Not Satisfactory</option>
+			</select>
+			</p>
+			<p>
+			<label id="selSkill">4. communication skills?</label>
+			<select name="selSkill" size="1"  tabindex="11">
+				<option>Excellent</option>
+				<option>Good</option>
+				<option>Fair</option>
+				<option>Not Satisfactory</option>
+			</select>
+			</p>
+			<p>
+			<label id="selPerformance">5. overall performance?</label>
+			<select name="selPerformance" size="1"  tabindex="13">
+				<option>Excellent</option>
+				<option>Good</option>
+				<option>Fair</option>
+				<option>Not Satisfactory</option>
+			</select>
+			</p>
+</fieldset>
+<fieldset>
+<legend>Course</legend>
+<p>
+			<label id="selCourse">6. How would you rate the course materials?</label>
+			<select name="selCourse" size="1"  tabindex="15">
+				<option>Excellent</option>
+				<option>Good</option>
+				<option>Fair</option>
+				<option>Not Satisfactory</option>
+			</select>
+			</p>
+			<p>
+			<label id="selExpectation">7. How much did this course meet your expectations?</label>
+			<select name="selExpectation" size="1"  tabindex="17">
+				<option>Excellent</option>
+				<option>Good</option>
+				<option>Fair</option>
+				<option>Not Satisfactory</option>
+			</select>
+			</p>
+			<p>
+			<label id="selRate">8. How would you rate this course(overall)?</label>
+			<select name="selRate" size="1"  tabindex="19">
+				<option>Excellent</option>
+				<option>Good</option>
+				<option>Fair</option>
+				<option>Not Satisfactory</option>
+			</select>
+			</p>
+			</fieldset>
+<fieldset>
+<legend>General Information</legend>
+<p>
+			<label id="selOutline">9. Was the course outline reviewed/explained at the beginning of your course?</label>
+			<select name="selSkill" size="1"  tabindex="21">
+				<option>Yes</option>
+				<option>No</option>
+				<option>Not Sure</option>
+			</select>
+			</p>
+			<p>
+			<label id="selRecommend">10. Would you recommend this course to a friend with the same interests?</label>
+			<select name="selRecommend" size="1"  tabindex="23">
+				<option>Yes</option>
+				<option>No</option>
+				<option>Not Sure</option>
+			</select>
+			</p>
+</fieldset>
+<fieldset>
+<legend>Any Other Comments</legend>
+<p>
+<label for="txtBestThing">11. What's the best thing about this course?</label> 
+</p><p>
+<textarea id="txtBestThing" cols="40" name="txtBestThing" rows="7" tabindex="25" placeholder="Please write down your thoughts.For example: some experience or some perception about this course." >
+</textarea>
+</p>
+<p>
+<label for="txtImprove">12. How could we improve this course?</label> 
+</p><p>
+<textarea id="txtImprove" cols="40" name="txtImprove" rows="7" tabindex="27" placeholder="Please write down your recommendation.Anything that we might can improve to help you to achieve that." ></textarea>
+</p>
+<p>
+<label for="txtOther">13. Others?</label> 
+</p><p>
+<textarea id="txtOther" cols="40" name="txtOther" rows="7" tabindex="29" placeholder="Please type in any special requests"></textarea>
+</p>
+</fieldset>
+<p>
+			<input name="btnSubmit" tabindex="31" type="submit" value="Submit Now">
+			
+			<input name="btnReset" tabindex="33" type="reset" value="Clear All">
+			</p>	
+	
+ </form>
+
+<h6>&copy;&nbsp;Copyright Student Name:Junhao Li | Student Number:300782703-COMP213-063</h6>
+</div>
+
+ </body>
+ </html>
